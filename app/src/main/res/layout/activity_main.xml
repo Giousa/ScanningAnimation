@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.zmm.scanninganimation.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="1400px"
+        android:layout_height="900px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/device_cali_bg">
+
+        <ImageView
+            android:id="@+id/iv_device_cali_shoes"
+            android:layout_width="424px"
+            android:layout_height="304px"
+            android:layout_centerInParent="true"
+            android:src="@drawable/device_cali_shoes"/>
+
+        <ImageView
+            android:id="@+id/iv_device_cali_scanning"
+            android:layout_width="424px"
+            android:layout_height="110px"
+            android:src="@drawable/device_cali_scaning"/>
+
+    </RelativeLayout>
+</LinearLayout>
