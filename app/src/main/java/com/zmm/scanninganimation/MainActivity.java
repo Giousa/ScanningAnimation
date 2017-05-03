@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mScanningAnimation = new TranslateAnimation(left, left, top-height, bottom-height);
         mScanningAnimation.setDuration(500); // 动画持续时间
         mScanningAnimation.setRepeatCount(Animation.INFINITE); // 无限循环
+        mScanningAnimation.setRepeatMode(Animation.REVERSE);
 
         // 播放动画
         mIvDeviceCaliScanning.setAnimation(mScanningAnimation);
